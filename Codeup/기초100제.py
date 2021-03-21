@@ -385,10 +385,48 @@ t = ord('a')
 while t<=c:
     print(chr(t), end=' ')
     t += 1
-'''
+
 # 75
 n = int(input())
 t = 0
 while t<=n:
     print(t)
     t += 1
+
+# 76
+n = int(input())
+for i in range(n+1):
+    print(i)
+
+# 77
+n = int(input())
+s = 0
+for i in range(0, n+1, 2):
+    s += i
+
+print(s)
+
+# 78
+s = 'a'
+while s != 'q':
+    s = input()
+    print(s)
+'''
+###############################################
+'''
+# 79
+n1 = int(input())
+n2 = 1
+s = 0
+
+while True:
+    s += n2
+    if s <= n1:
+        n2 += 1
+    else:
+        break
+
+print(n2)
+'''
+################################################
+#80
